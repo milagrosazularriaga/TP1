@@ -33,9 +33,7 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
+    margin: 20px;
 }
 
 article {
@@ -44,7 +42,15 @@ article {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: left;
+    text-align: center;
+}
+
+.contenedor__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 ul {
